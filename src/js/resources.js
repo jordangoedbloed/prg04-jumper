@@ -1,11 +1,11 @@
 import { ImageSource, Sound, Resource, Loader } from 'excalibur'
-// import fishImage from '../images/fish.png'
+import  jordanActor   from '../images/jordan_actor.png'
 
 const Resources = {
-    // Fish: new ImageSource(fishImage)
+     Jordan: new ImageSource(jordanActor)   
 }
 const ResourceLoader = new Loader([
-    // Resources.Fish
+     Resources.Jordan
 ])
 
 export { Resources, ResourceLoader }
